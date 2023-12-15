@@ -1,0 +1,12 @@
+
+
+.footerContainer{
+    background-color: #1D283C;
+    text-align: center;
+    padding: 24px 1px;
+}
+
+.footerContent{
+    /* height: 70px; */
+    color: white;
+}

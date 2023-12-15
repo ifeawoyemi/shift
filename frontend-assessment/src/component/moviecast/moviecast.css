@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&display=swap');
+
+.castContainer{
+    background-color: #1B1F32;
+    color: white;
+    overflow: hidden;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+}
+
+.castHeader{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+}
+
+.title{
+    font-family: 'Archivo';
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.castSlider{
+    display: flex;
+    gap: 20px;
+}
+
+.movieDetail{
+    display: block;
+}

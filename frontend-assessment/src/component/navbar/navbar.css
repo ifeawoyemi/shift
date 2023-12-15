@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+.navbarContainer{
+    background: #1D283C;
+    height: 80%;
+}
+
+.maxWidth{
+    width: 100%;
+    /* padding: 0 80px; */
+    margin: auto;
+}
+
+.navbarContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo h4{
+    font-family: 'Allerta Stencil', sans-serif;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.navbarSearch{
+    display: flex;
+    position: relative;
+}
+
+input{
+    background-color: #1B1F32;
+    border: 1px solid #494D61;
+    border-radius: 6px;
+    /* padding: 8px 0px; */
+    width: 331px;
+    height: 40px;
+}
+
+/* ********add input styling sososo*************** */
+input:focus{
+    border: 1px solid #1B1F32;
+    color: #1B1F32;
+}
+
+.searchIcon{
+    color: #FDFDFD;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    cursor: pointer;
+}
+
+input::placeholder{
+    padding-left: 30px;
+    font-size: 18px;
+    color: #8F929B;
+}
+
+/* ::-webkit-input-placeholder{
+    font-family: 'Archivo', sans-serif;
+    padding-left: 30px !important;
+    color: #8F929B;
+    font-size: 14px;
+} */
+
+@media (max-width: 610px) {
+    
+}
+
+/* @media (max-width: 320px) {
+    .maxWidth{
+        width: 300px;
+        margin: auto;
+    }
+
+    input{
+        display: none;
+    }
+} */
